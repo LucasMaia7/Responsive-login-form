@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(43, 52, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    width: 300px;
+    background: rgb(255, 255, 255);
+    font-family: lato;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-top: 10px solid rgb(37, 109, 91);
+
+}
+
+.form-box .form-input {
+    border: none;
+    background: rgb(238, 238, 238);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 10px;
+
+}
+
+.form-box .form-btn {
+    border: none;
+    background: rgb(37, 109, 91);
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:340px){
+    .form-box{
+        width: 100vw;
+        height: 100vh
+    }
+}
